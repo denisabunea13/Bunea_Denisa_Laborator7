@@ -10,14 +10,13 @@
             VerticalOptions="Center">
 
             <Image
-                Source="craciun.jpg"
+                Source="shop_list.jpg"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Bine ati venit! 
-                      Craciun fericit!"
+                Text="Bine ati venit!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
