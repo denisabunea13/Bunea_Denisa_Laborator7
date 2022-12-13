@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Bunea_Denisa_Laborator7.NewPage1"
+             x:Class="Bunea_Denisa_Laborator7.ProductPage"
              Title="ProductPage">
     <ContentPage.Content>
         <StackLayout Margin="20">
@@ -22,9 +22,8 @@
                        Clicked="OnSaveButtonClicked" />
                 <Button Grid.Column="1"
                         Text="Delete Product" MaximumWidthRequest="200"
-                        Clicked="OnDeleteButtonClicked"/>
-                <ListView Grid.Row="1" Grid.Column="0" x:Name="listView"
-                        Margin="20" IsRefreshing="True" >
+                        Clicked="OnDeleteButtonClicked" />
+                <ListView Grid.Row="1" Grid.Column="0" x:Name="listView" Margin="20" IsRefreshing="True" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding Description}" />
