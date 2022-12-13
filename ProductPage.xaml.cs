@@ -4,7 +4,7 @@ namespace Bunea_Denisa_Laborator7;
 
 public partial class ProductPage : ContentPage
 {
-    ShopList sl;
+    ShopList sl; 
     public ProductPage(ShopList slist)
     {
         InitializeComponent();
